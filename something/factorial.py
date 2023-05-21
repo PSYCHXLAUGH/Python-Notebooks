@@ -5,11 +5,11 @@
 from sys import argv
 
 
-def calc(x):
+def f(x):
     if x == 1:
         return 1
     else:
-        return x * calc(x - 1)
+        return x * f(x - 1)
 
 
-print(calc(int(argv[1])))
+print(f(int(argv[1])))
