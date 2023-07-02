@@ -2,8 +2,6 @@
 
 # an implementation of a class that, when instantiated, will have the same address in memory
 
-from typing import Any
-
 class NoSingleton: # for example
     pass
 
