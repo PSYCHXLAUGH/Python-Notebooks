@@ -16,10 +16,6 @@ class SimpleIterator:
             return self.init_value
         raise StopIteration
 
-
 if __name__ == "__main__":
     test_iter = SimpleIterator(10)
     print(list(test_iter))
-    print(list(test_iter))
-    for x in test_iter:
-        print(x)
