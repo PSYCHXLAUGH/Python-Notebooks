@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from typing import Union
 
 class SimpleIterator:
     def __init__(self, counter):
